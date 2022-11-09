@@ -1,8 +1,8 @@
 import '../styles/globals.css'
 
-import { Inter } from '@next/font/google'
+import { Roboto_Slab } from '@next/font/google'
 
-const inter = Inter()
+const inter = Roboto_Slab({ subsets: ['latin', 'thai'] })
 
 function MyApp({ Component, pageProps }) {
   return (

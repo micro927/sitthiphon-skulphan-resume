@@ -1,13 +1,15 @@
 import fsPromises from 'fs/promises';
 import path from 'path'
-import { useState, useEffect } from 'react';
+// import { useState, useEffect } from 'react';
 
 export default function Try({ information }) {
-  const myData = information.education
+  const { personalInformation, profile, education, work, skill } = information
+  const fullName = `${personalInformation.name} ${personalInformation.surname}`
   return (
     <>
       <h1 className='text-3xl font-bold underline'>HI</h1>
-      {myData.map(a => <p key={a.level}>{a.levelTitleTH}</p>)}
+      <h1 className=''>{fullName}</h1>
+      {education.map(a => <p key={a.level}>{a.levelTitle}</p>)}
     </>
   )
 }
