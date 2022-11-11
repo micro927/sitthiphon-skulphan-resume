@@ -1,12 +1,12 @@
 import '../styles/globals.css'
 
-import { Roboto_Slab } from '@next/font/google'
+import { Montserrat } from '@next/font/google'
 
-const inter = Roboto_Slab({ subsets: ['latin', 'thai'] })
+const montserrat = Montserrat({ subsets: ['latin', 'thai'] })
 
 function MyApp({ Component, pageProps }) {
   return (
-    <main className={inter.className}>
+    <main className={montserrat.className}>
       <Component {...pageProps} />
     </main>
   )
