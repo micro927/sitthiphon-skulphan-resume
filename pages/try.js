@@ -1,5 +1,8 @@
 import fsPromises from 'fs/promises';
 import path from 'path'
+import CardPersonal from '../components/CardPersonal';
+import Layout from '../layouts/MainLayout';
+
 // import { useState, useEffect } from 'react';
 
 export default function Try({ information }) {
@@ -7,9 +10,12 @@ export default function Try({ information }) {
   const fullName = `${personalInformation.name} ${personalInformation.surname}`
   return (
     <>
-      <h1 className='text-3xl font-bold underline'>HI</h1>
-      <h1 className=''>{fullName}</h1>
-      {education.map(a => <p key={a.level}>{a.levelTitle}</p>)}
+      <Layout>
+        <CardPersonal fullname={fullName} />
+        <h1 className='text-3xl font-bold underline'>HI</h1>
+        <h1 className=''>{fullName}</h1>
+        {education.map(a => <p key={a.level}>{a.levelTitle}</p>)}
+      </Layout>
     </>
   )
 }
