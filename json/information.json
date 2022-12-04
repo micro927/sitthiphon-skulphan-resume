@@ -12,7 +12,7 @@
         "linkedin": "linkedin.com/in/sitthiphon-skulphan",
         "github": "github.com/micro927"
     },
-    "profile": "",
+    "aboutMe": "      Software Developer with 3+ years of experience in educational institution. Responsible to full lifecycle web application development. Focusing on user experience on client-side and performance on server-side. Fully believe that technology will make the people's life better and easier. Still passionate in learning new useful skills, frameworks and tools for improve development efficiency and productivity.",
     "education": [
         {
             "level": "3",
@@ -21,9 +21,19 @@
             "majorTitle": "Computer Science",
             "majorTitleTH": "วิทยาการคอมพิวเตอร์",
             "institute": "Faculty of Science, Chiang Mai University",
-            "degree": "M.S.",
+            "degree": "M.Sc.",
             "yearGrad": "2022",
-            "research": "Population Trajectory Clustering from university WIFI user's log data (DBSCAN, Python, Pandas, Jupyter Notebook)"
+            "researchTitle": "Population Trajectory Clustering from university WIFI user's log data (DBSCAN, Python, Pandas, Jupyter Notebook)",
+            "fields": [
+                "Data Clustering",
+                "DBSCAN"
+            ],
+            "Tools": [
+                "Python",
+                "Pandas",
+                "Jupyter Notebook"
+            ],
+            "URL": "cmu.to/thesis164251"
         },
         {
             "level": "1",
@@ -40,7 +50,7 @@
     "work": [
         {
             "jobno": "1",
-            "jobTitle": "Registration Officer (Non Programming Job)",
+            "jobTitle": "Officer (Non Programming Job)",
             "Organization": "Registration office, Chiang Mai University",
             "monthYearStart": "03-2015",
             "monthYeard": "08-2019",
@@ -53,10 +63,10 @@
             "monthYearStart": "09-2019",
             "monthYeard": "00-0000",
             "descriptionList": [
-                "Developed and designed Web Application perform CRUD operations, Excel File Reading using React.js",
-                "Developed and designed a Static Website that provides Student Statistic Information using Vue.js",
-                "Developed and designed 5+ Web Applications perform CRUD operations, QR Payment, PDF Exporting and User Information's Dashboard using PHP & jQuery",
-                "Developed REST API that provides data & CRUD operation for my own website and other organization using PHP and Node.js/Express.js"
+                "Develop and design 5+ Web Applications that perform CRUD operations, File reading, PDF generating and information dashboard using PHP, jQuery, connected with MySQL database",
+                "Develop REST API for internal use and provides data to an affiliated organization using PHP, Node.js/Express.js, connected with MySQL database",
+                "Develop and design  a Static website that serves student's statistic information using Vue.js",
+                "Develop and design Client-Side Web Application using React.js"
             ]
         }
     ],
@@ -122,9 +132,19 @@
             "level": "7"
         },
         {
-            "skillTitle": "Docker",
+            "skillTitle": "Docker (Beginner)",
             "type": "other",
             "level": "2"
+        }
+    ],
+    "language": [
+        {
+            "languageTitle": "Thai",
+            "level": "Native"
+        },
+        {
+            "languageTitle": "English",
+            "level": "Intermediate"
         }
     ]
 }
